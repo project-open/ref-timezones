@@ -4,7 +4,7 @@
 --
 -- @author  jon@jongriffin.com
 -- @created 2000-12-04
--- @cvs-id  $Id$
+-- @cvs-id  $Id: ref-timezones-drop.sql,v 1.5 2013/03/30 18:50:28 gustafn Exp $
 
 
 

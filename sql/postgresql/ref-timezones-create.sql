@@ -7,7 +7,7 @@
 --
 -- @author jon@jongriffin.com, dhogaza@pacifier.com
 -- @creation-date 2001-09-02
--- @cvs-id $Id$
+-- @cvs-id $Id: ref-timezones-create.sql,v 1.12.4.1 2017/04/22 12:07:20 gustafn Exp $
 
 -- DRB: PostgreSQL has its own ideas about timezones and input/output conversions.
 -- It natively supports a subset of the Unix timezone database, and external
@@ -35,7 +35,7 @@
 --   and appends the timezone abbreviation.
 
 -- timezone__get_offset(timezone, timestamptz) returns interval
---   Returns a PostgreSQL interval (which can be added or substracted from
+--   Returns a PostgreSQL interval (which can be added or subtracted from
 --   a UTC timestamp) for the timestamp in the given timezone.
 
 -- timezone__get_rawoffset(timezone, timestamptz) returns interval
